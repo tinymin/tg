@@ -66,6 +66,10 @@ Then,
      ./configure
      make
 
+Try below if you getting compile errors,
+     env CFLAGS="-Wno-cast-function-type" ./configure
+     make
+
 #### Other methods to install on linux
 
 On Gentoo: use ebuild provided.
