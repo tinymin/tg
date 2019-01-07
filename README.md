@@ -67,6 +67,7 @@ Then,
      make
 
 Try below if you getting compile errors,
+
      env CFLAGS="-Wno-cast-function-type" ./configure
      make
 
